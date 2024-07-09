@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="inscription encadreur.css">
+</head>
+<body>
+    <div class="box">
+        <form action="process_inscription.php" method="POST">
+            <h2>Inscription</h2>
+            <div class="inputbox">
+                <input type="text" name="nom_prenom" required="required">
+                <span>Nom et prénom</span>
+            </div>
+            <div class="inputbox">
+                <input type="email" name="email" required="required">
+                <span>E-mail</span>
+            </div>
+            <div class="inputbox">
+                <input type="tel" name="telephone" required="required">
+                <span>Téléphone</span>
+            </div>
+            <div class="inputbox">
+                <input type="text" name="poste" required="required">
+                <span>Poste</span>
+            </div>
+            <div class="form-buttons">
+                <button type="submit">Enregistrer</button>
+                <button type="reset">Annuler</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

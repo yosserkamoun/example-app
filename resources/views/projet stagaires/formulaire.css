@@ -1,0 +1,150 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://i.pinimg.com/564x/c7/ad/d0/c7add00985120248ae4cccff314d08b3.jpg');
+   
+    
+    background-size: contain;*
+    background-position: center;
+
+  
+
+
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 8px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+    
+  
+  }
+ 
+
+
+.box form {
+    position: absolue;
+    inset :4px;
+    background: #e6b884;
+    padding : 50px 40px;
+    border-radius: 8px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+
+} 
+.box form h2{
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+
+.box form .inputbox{
+   position: relative;
+   width: 300px; 
+   margin-top: 35px;
+
+}
+.box form .inputbox input{
+    position: relative;
+    width: 100%;
+    padding: 10px 10px 10px;
+    background:#fff;
+    outline: none;
+    border:none;
+    box-shadow: none;
+    color: #23242a;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+
+}
+
+.box form .inputbox span
+{
+position: absolute;
+left: 0;
+padding: 10px 10px 10px ;
+pointer-events: none;
+color: #795732;
+font-size: 1em;
+letter-spacing: 0.05em;
+transition: 0.5s;
+
+}
+
+.box form .inputbox input;:valid ~ span
+.box form .inputbox input;:facus ~ span
+{
+color: #fff;
+font-size: 0.75em;
+transform: translateY(-34px);
+}
+.box form .inputbox i
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+    pointer-events: none;
+}
+.box form .inputbox input;:valid ~i
+.box form .inputbox input;:facus ~ i
+{
+ height: 44px;   
+
+
+}
+
+
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-buttons button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.form-buttons button[type="reset"] {
+    background-color: #f44336;
+    color: white;
+}
+
+
+
+
+
+
+
+
